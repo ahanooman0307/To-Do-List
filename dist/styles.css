@@ -1,0 +1,44 @@
+.title{
+    color: white;
+    border: 1px solid black;
+    background-color: red;
+    font-size: 48px;
+    height: 20vh;
+}
+
+.project{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.midBox{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+
+}
+
+.sidebar{
+    border: 2px solid black;
+    background-color: #eee;
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 20vh;
+    
+}
+
+.main{
+    border: 1px solid black;
+    width: 180vh;
+    background-color: rgb(197, 213, 228);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#addItem{
+    display: none;
+}
+
+
+
